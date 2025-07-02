@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 15px;
+     box-shadow: 8px 8px 0px black;
+     width: 320px;
+     padding: 20px;
+     
+}
+
+ .image {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+}
+.tag{
+        background-color: hsl(47, 88%, 63%);
+        font-weight: bold;
+        padding: 14px;
+        border-radius: 4px;
+        font-size: 12px;
+        display: inline-block;
+        margin-bottom: 10px;
+}
+
+.puta{
+     font-size: 12px;
+     color: hsl(0, 0%, 42%);
+     margin-bottom: 15px;
+}
+
+.mentor{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.next{
+    font-size: 14px;
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avater{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.author-name{
+    font-size: 12px;
+    font-weight: bold;
+}
+
